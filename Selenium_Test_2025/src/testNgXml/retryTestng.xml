@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestRetrySuit">
+    <listeners>
+        <listener class-name="selenium_framework.page_object_model.utilities.MyTransform"/>
+    </listeners>
+    <test name="RetryTest">
+        <classes>
+            <class name="SpecificTestcases.RetryTestFromTestNg"/>
+            <class name="TestCheck"/>
+        </classes>
+    </test>
+</suite>
